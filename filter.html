@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav id="section1">
+            <ul>
+                <li><a href="#contact">Наш Cайт</a></li>
+            </ul>
+            <ul>
+                <li><a href="#contact">Характеристики</a></li>
+            </ul>
+            <ul>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+                <img src="./img/user.png" alt="">
+        </nav>
+    </header>
+    <main>
+        <div class="border">
+             <p class="cont">Узнать цену и забронировать машину</p>
+             <div class="pink-block">
+
+                <div class="form-allblock">
+                    <form class="booking-form">
+                    <input placeholder="Ваше имя" type="text">
+                    <input placeholder="Ваш email" type="email">
+                    <input placeholder="Ваш номер" type="tel">
+
+                        <select name="car" required>
+                            <option value="">Какой автомобиль</option>
+                            <option value="economy">Эконом класс</option>
+                            <option value="comfort">Комфорт</option>
+                            <option value="business">Бизнес класс</option>
+                            <option value="premium">Премиум</option>
+                        </select>
+
+                    <input type="date" name="booking_date" required>
+                        <select name="rental_period" required>
+                            <option value="">На сколько</option>
+                            <option value="3hours">3 часа</option>
+                            <option value="1day">1 день</option>
+                            <option value="2days">2 дня</option>
+                            <option value="3days">3 дня</option>
+                            <option value="week">Неделя</option>
+                        </select>
+                
+                
+                </form>
+                    <textarea placeholder="Дополнительный текст" name="" id=""></textarea>  
+                </div>
+
+                <div class="button-block">
+                    <button  class="button-price">Узнать цену</button>
+                </div>
+
+             </div>
+
+        </div>
+    </main>
+</body>
+</html>
