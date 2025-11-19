@@ -216,6 +216,7 @@ textarea {
   height: 250px;
   border: none;
   border-radius: 60px;
+  resize: none;
 }
 
 .button-block { 
@@ -228,6 +229,7 @@ textarea {
   width: 200px;
   height: 50px;
   background-color:#321A4A;
+  border-radius: 60px;
   color: #ffff;
   font-size: 24px;
 } 
